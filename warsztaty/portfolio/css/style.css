@@ -38,7 +38,7 @@ nav > ul > li {
     display: inline-block;
     color: lime;
     text-decoration: none;
-    transition: color 0.5;
+    transition: color 1s;
 }
 
 nav > ul > li:hover {
@@ -101,4 +101,13 @@ section {
     overflow: hidden;
     box-shadow: 20px;
 
+    /* /skills/*/
+}
+
+.skills-icon-item {
+    display: inline-block;
+}
+
+.skills-icons {
+    text-align: center
 }
