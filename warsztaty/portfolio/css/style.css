@@ -31,17 +31,21 @@ nav {
     background-color: white;
     padding: 20px;
     text-align: right;
+    z-index: 10;
 }
 
 nav > ul > li {
     display: inline-block;
     color: lime;
     text-decoration: none;
+    transition: color 0.5;
 }
 
-nav.menu-item: hover {
+nav > ul > li:hover {
     color: black;
 }
+
+
 
 /*navigation end*/
 
@@ -50,7 +54,7 @@ nav.menu-item: hover {
 #header-content > h2 {
     color: white;
     font-weight: 50;
-    font-size: 400;
+    font-size: 100;
     margin-top: -30px;
 }
 
@@ -64,14 +68,37 @@ nav.menu-item: hover {
 
 #header-content {
     text-align: center;
+    position: relative;
     top: 50%;
     transform: translateY(-50%);
     font-size: 2em;
 }
 
 
-
-
 /*header end*/
 
-/*SECTION*/
+/*about*/
+
+#about figure {
+    width: 50%;
+    margin: 0;
+    float: left;
+}
+
+#about {
+    box-shadow: 6px 3px 5px 6px black;
+    box-shadow: 36px 3px 5px 6px black;
+    box-shadow: 6px 3px 5px 6px black;
+}
+
+#about img {
+    max-height: 350px;
+    max-height: 350px;
+    border-radius: 20%;
+}
+
+section {
+    overflow: hidden;
+    box-shadow: 20px;
+
+}
