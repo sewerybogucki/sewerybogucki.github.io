@@ -32,6 +32,7 @@ nav {
     padding: 20px;
     text-align: right;
     z-index: 10;
+    margin: 0 auto;
 }
 
 nav > ul > li {
@@ -45,17 +46,15 @@ nav > ul > li:hover {
     color: black;
 }
 
-
-
 /*navigation end*/
 
 /*header start*/
 
 #header-content > h2 {
     color: white;
-    font-weight: 50;
-    font-size: 100;
-    margin-top: -30px;
+    font-weight: 70;
+    font-size: 30px;
+    margin-top: -40px;
 }
 
 #main-header {
@@ -74,10 +73,9 @@ nav > ul > li:hover {
     font-size: 2em;
 }
 
-
 /*header end*/
 
-/*about*/
+/*about start*/
 
 #about figure {
     width: 50%;
@@ -86,9 +84,9 @@ nav > ul > li:hover {
 }
 
 #about {
-    box-shadow: 6px 3px 5px 6px black;
-    box-shadow: 36px 3px 5px 6px black;
-    box-shadow: 6px 3px 5px 6px black;
+    box-shadow: 36px 3px 15px 6px black;
+    box-shadow: 36px 3px 15px 6px black;
+    box-shadow: 36px 3px 15px 6px black;
 }
 
 #about img {
@@ -101,8 +99,11 @@ section {
     overflow: hidden;
     box-shadow: 20px;
 
-    /* /skills/*/
 }
+
+/*about end */
+
+/* /skills start/*/
 
 .skills-icon-item {
     display: inline-block;
@@ -111,3 +112,5 @@ section {
 .skills-icons {
     text-align: center
 }
+
+/*skills end*/
