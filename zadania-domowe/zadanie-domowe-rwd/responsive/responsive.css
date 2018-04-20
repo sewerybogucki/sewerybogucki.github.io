@@ -1,0 +1,14 @@
+@media screen (min-width:1170;
+) h1 {
+    top: 50%;
+    text-align: left;
+}
+
+
+
+@media screen (min-width:993px and max-width:1170px;
+) @media screen (max-width:992px;
+)) header {
+    top: 50%;
+    text-align: left;
+}
