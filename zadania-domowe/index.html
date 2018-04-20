@@ -21,28 +21,28 @@
         <label>Telefon:</label><br>
         <input type="text" name="phone" id="telefon" /> <br><br>
 
-        <label>Miasto:</label><br>
-        <select name="Miasto">
-            <option value="Warszawa" name="miasto">Warszawa</option>
-            <option value="Kraków" name="miasto">Kraków </option>
-            <option value="Gdańsk" name="miasto">Gdańsk</option>
-    </select>
+        <select name="miasto"><p>Miasto</p>
+            <option value="Warszawa">Warszawa</option>
+            <option value="Kraków">Kraków</option>
+            <option value="Gdańsk">Gdańsk</option>
+</select>
 
         <br>
-        <label for="sex">Płeć:</label> <br/>
-        <input type="radio" name="plec" value="male">Kobieta
-        <input type="radio" name="plec" value="female">Meżczyzna
-        <br>
-        <br>
-        <label>Wyrażam zgode na przetwarzanie danych osobowych</label>
-        <input type="checkbox" name="zgoda"> <br>
+        <p>Płeć</p>
+        <label><input type="radio">Kobieta<label for="Kobieta"></label></label>
+        <label><input type="radio">Mezczyzna<label for="Mezczyzna"></label></label>
         <br>
         <br>
 
-        <label>Czy poleciłbyś nasz produkt swoim znajomym?</label> <br>
+
+        <label name="zgoda"><input type="checkbox">Wyrażam zgode na przetwarzanie danych osobowych<label ></label></label>
+        <br>
+        <br>
+        <label name="agreement" for="zgoda">Czy poleciłbyś nasz produkt swoim znajomym?</label>
+        <br>
         <textarea rows="4" name="komentarz" cols="50"></textarea> <br>
 
-        <input type="submit" name="wysyłka" value="Wyślj">
+        <input type="submit" name="wysyłka" value="Wyślij">
 
     </form>
 </body>
