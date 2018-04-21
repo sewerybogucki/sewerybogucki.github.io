@@ -1,0 +1,15 @@
+@media all and (max-width: 992px)
+/*    RDW main menu*/
+
+#main-nav ul {
+    display: none;
+}
+
+#main-nav .toggle {
+    display: block;
+    padding: 0 20px;
+    color: black;
+    font-size: 20px;
+    line-height: 60px;
+    text-align: right;
+}
