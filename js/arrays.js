@@ -26,3 +26,10 @@ console.log(imiona.length);
 console.log(imiona.join(""));
 
 console.log(imiona.reverse(""));
+
+/*console.log(imiona.sort(""));*/
+
+
+var liczby = ["dwa", "trzy", "zero"]
+
+console.log(liczby.sort().reverse());
