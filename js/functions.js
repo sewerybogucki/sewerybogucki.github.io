@@ -15,7 +15,6 @@ dodajLiczby(4, 7);
 console.log(wynikZfunkcji);
 
 
-
 //function aktualnyRok() {
 //    console.log("2018");
 //}
