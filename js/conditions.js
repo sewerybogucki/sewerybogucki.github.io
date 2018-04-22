@@ -1,5 +1,5 @@
 //if (wzrostOlgi > wzrostMateusz) {
-    'use strict';
+'use strict';
 //    'use strict';
 //    console.log("Olga jest wyższa :)");
 //
@@ -30,6 +30,5 @@ switch (kolor) {
         break;
     default:
         console.log("Inny kolor")
-
 
 }
