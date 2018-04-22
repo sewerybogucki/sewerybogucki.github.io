@@ -41,10 +41,6 @@ console.log(marcin);
 agata.wyswietlInfo();
 
 
-
-
-
-/*    wyswietlInfo() {       
-        console.log("Imię: " + this.imie + ", " + "Nazwisko: " + this.nazwisko);   
-    }
-}*/
+wyswietlInfo() {       
+    console.log("Imię: " + this.imie + ", " + "Nazwisko: " + this.nazwisko);   
+}
