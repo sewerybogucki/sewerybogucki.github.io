@@ -3,24 +3,69 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>formularz</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: lightseagreen;
+            font-variant-caps: small-caps;
+        }
+
+        input {
+            background-color: lightsalmon;
+            opacity: 0.5;
+            border-bottom: 5px solid black;
+            color: crimson;
+        }
+
+        input[submit] {
+            opacity: 1;
+            border-radius: 50%;
+        }
+
+    </style>
 </head>
 
 <body>
+    <form action="https://formspree.io/sebogucki@gmail.com" method="POST">
+        <label for="imie">Imie:</label><br>
+        <input type="text" name="firstname" id="imie" /><br>
 
-    <!--<script src="js/1komentarze.js"></script>-->
-    <!--<script src="js/variables.js"></script>-->
-    <!--<script src="js/functions.js"></script>-->
-    <!--<script src="js/datatypes.js"></script>-->
-    <!--<script src="js/arrays.js"></script>-->
-    <!--<script src="js/objects.js"></script>-->
-    <!-- <script src="js/math.js"></script>-->
-    <!--<script src="js/conditions.js"></script>-->
-    <!-- <script src="js/petle.js"></script>-->
-    <script src="js/12-json.js"></script>
+        <label for="nazwisko">Nazwisko:</label><br>
+        <input type="text" name="lastname" id="nazwisko" /><br>
 
+        <label for="email">E-mail:</label><br>
+        <input type="email" name="email" id="email" /> <br>
+
+        <label>Telefon:</label><br>
+        <input type="text" name="phone" id="telefon" />
+        <hr>
+        <p>Miasto:</p>
+        <select name="miasto"><label>Miasto:</label>
+            <option value="Warszawa">Warszawa</option>
+            <option value="Kraków">Kraków </option>
+            <option value="Gdańsk">Gdańsk</option>
+         </select>
+
+        <br>
+        <p>Płeć:</p>
+        <!--        <label for="sex" name="plec"></label> <br/>-->
+
+        <label>Kobieta<input type="radio" value="female">
+        </label>
+
+        <label>Mezczyzna<input type="radio" value="male">
+        </label>
+        <hr>
+        <label>Wyrażam zgode na przetwarzanie danych osobowych<input for="zgoda" type="checkbox"></label>
+        <br>
+        <br>
+        <label>Czy poleciłbyś nasz produkt swoim znajomym?</label> <br>
+        <textarea rows="4" name="komentarz" cols="50"></textarea> <br>
+
+        <input type="submit" name="wysyłka" value="Wyślj">
+
+    </form>
 </body>
-
 
 </html>
