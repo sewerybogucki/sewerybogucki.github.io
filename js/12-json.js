@@ -85,3 +85,24 @@ console.log(iloczyn(2, 3, 4));
 //jsonOsoby.osoby[0].zainteresowania.forEach( function(zainteresowanie, index) {
 //    console.log("index: " + index + " zainteresowanie: " + zainteresowanie.nazwa)
 //});
+
+
+
+var osoba = {
+    imie: "Piotr",
+    nazwisko: "Jachowicz",
+    getFullName: function () {
+        return this.imie + "" + this.nazwisko;
+    }
+}
+
+var i = 1;
+i = {
+    value: 3
+};
+i = function () {
+    return 1;
+
+};
+
+i = [1, 3]

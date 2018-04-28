@@ -33,3 +33,11 @@ console.log(imiona.reverse(""));
 var liczby = ["dwa", "trzy", "zero"]
 
 console.log(liczby.sort().reverse());
+
+
+
+
+
+function ()
+var a = 0;
+console.log(a);
