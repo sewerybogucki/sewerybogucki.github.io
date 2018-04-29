@@ -97,9 +97,32 @@ $('.znikacz').click(function () {
 
 });
 
+$('#buttonH1').click(function () {
 
+    $("h1").fadeOut(3000).fadeIn(1000);
 
+});
 
+$('#buttonH2').click(function () {
+
+    $("h2").slideUp(3000).slideDown(1000);
+
+});
+
+animateDiv();
+
+function animateDiv() {
+
+    $('div')
+        .animate({
+            width: '200px',
+            height: "200px",
+        }, 2000)
+        .animate({
+            width: '100px',
+            height: "100px",
+        }, 2000, animateDiv)
+}
 
 
 //$('.znikacz').mouseover(function () {
