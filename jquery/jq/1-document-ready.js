@@ -115,7 +115,7 @@ function animateDiv() {
 
     $('div')
         .animate({
-            width: '200px',
+            width: "200px",
             height: "200px",
         }, 2000)
         .animate({
